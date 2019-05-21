@@ -22,5 +22,13 @@
     <ClCompile Include="Private\Book_Effective_C++.cpp">
       <Filter>Private</Filter>
     </ClCompile>
+    <ClCompile Include="Private\第1章-让自己习惯C++.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Public\第1章-让自己习惯C++.h">
+      <Filter>Public</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

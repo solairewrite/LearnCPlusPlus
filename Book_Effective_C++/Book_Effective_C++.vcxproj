@@ -155,6 +155,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Private\Book_Effective_C++.cpp" />
+    <ClCompile Include="Private\第1章-让自己习惯C++.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Public\第1章-让自己习惯C++.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
