@@ -151,7 +151,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="Notes\第1章 让自己习惯C++.md" />
+    <None Include="Notes\Chapter1,2.md" />
+    <None Include="Notes\Chapter3.md" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Private\Book_Effective_C++.cpp" />

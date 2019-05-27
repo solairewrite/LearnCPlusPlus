@@ -14,11 +14,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Notes\第1章 让自己习惯C++.md">
-      <Filter>Notes</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Private\Book_Effective_C++.cpp">
       <Filter>Private</Filter>
     </ClCompile>
@@ -30,5 +25,13 @@
     <ClInclude Include="Public\第1章-让自己习惯C++.h">
       <Filter>Public</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Notes\Chapter1,2.md">
+      <Filter>Notes</Filter>
+    </None>
+    <None Include="Notes\Chapter3.md">
+      <Filter>Notes</Filter>
+    </None>
   </ItemGroup>
 </Project>
