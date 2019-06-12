@@ -152,7 +152,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="Notes\Chapter1,2.md" />
-    <None Include="Notes\Chapter3.md" />
+    <None Include="Notes\Chapter3,4.md" />
+    <None Include="Notes\Chapter5.md" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Private\Book_Effective_C++.cpp" />
