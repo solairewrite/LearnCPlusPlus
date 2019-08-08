@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <vector>
+#include <set>
 
 void UniformInitialization();
 void print(std::initializer_list<int> vals);
@@ -7,6 +8,8 @@ void RangeBasedFor();
 
 template<typename T>
 void printElements(const T& coll);
+
+void MoveSemanticRvalueReference();
 
 int main()
 {
@@ -18,8 +21,10 @@ int main()
 	//RangeBasedFor();
 
 	// 调用泛型函数
-	std::vector<int> vec{ 1,4,6 };
-	printElements(vec);
+	//std::vector<int> vec{ 1,4,6 };
+	//printElements(vec);
+
+	MoveSemanticRvalueReference();
 }
 
 // 一致性初始化
@@ -67,4 +72,18 @@ void printElements(const T& coll)
 	{
 		std::cout << elem << std::endl;
 	}
+}
+
+// Move语义和Rvalue Reference
+void MoveSemanticRvalueReference()
+{
+	int i = 6, j = 7;
+	std::set<int> set;
+
+	// X&&是一种新类型,表示变量不会被使用,可以直接移动,而不用创建副本
+	// std::move(x)将x转为X&&类型
+	set.insert(std::move(i));
+	set.insert(std::move(j));
+
+	printElements(set);
 }
