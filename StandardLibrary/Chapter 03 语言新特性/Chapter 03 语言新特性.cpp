@@ -2,6 +2,8 @@
 #include <vector>
 #include <set>
 
+using namespace std;
+
 void UniformInitialization();
 void print(std::initializer_list<int> vals);
 void RangeBasedFor();
@@ -10,6 +12,7 @@ template<typename T>
 void printElements(const T& coll);
 
 void MoveSemanticRvalueReference();
+void StringLiteral();
 
 int main()
 {
@@ -24,7 +27,9 @@ int main()
 	//std::vector<int> vec{ 1,4,6 };
 	//printElements(vec);
 
-	MoveSemanticRvalueReference();
+	//MoveSemanticRvalueReference();
+
+	StringLiteral();
 }
 
 // 一致性初始化
@@ -43,7 +48,7 @@ void print(std::initializer_list<int> vals)
 {
 	for (auto p = vals.begin(); p != vals.end(); ++p)
 	{
-		std::cout << *p << "\n";
+		cout << *p << "\n";
 	}
 }
 
@@ -52,7 +57,7 @@ void RangeBasedFor()
 {
 	for (int i : {2, 3, 5, 7})
 	{
-		//std::cout << i << std::endl;
+		//cout << i << std::endl;
 	}
 
 	std::vector<double> vec{ 1,2,3 };
@@ -60,7 +65,7 @@ void RangeBasedFor()
 	for (auto& elem : vec)
 	{
 		elem *= 3;
-		std::cout << elem << std::endl;
+		cout << elem << std::endl;
 	}
 }
 
@@ -70,7 +75,7 @@ void printElements(const T& coll)
 {
 	for (const auto& elem : coll)
 	{
-		std::cout << elem << std::endl;
+		cout << elem << std::endl;
 	}
 }
 
@@ -86,4 +91,18 @@ void MoveSemanticRvalueReference()
 	set.insert(std::move(j));
 
 	printElements(set);
+}
+
+// 字符串字面常量
+void StringLiteral()
+{
+	// Raw string,转义字符为纯字符, R"( ... )"
+	auto rstring = R"(\\n)";
+	cout << rstring << "\n";
+	
+	// 编码前缀encoding prefix,为string literal定义字符编码
+	// u8: UTF-8
+	// L: wide string literal, wchar_t. 注意要使用wcout输出
+	cout << u8"UTF8-encoding" << endl;
+	std::wcout << L"wide string literal, wchar_t" << endl;
 }
