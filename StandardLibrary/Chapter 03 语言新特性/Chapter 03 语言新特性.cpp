@@ -13,9 +13,10 @@ void printElements(const T& coll);
 
 void MoveSemanticRvalueReference();
 void StringLiteral();
+constexpr int square(int x);
 
-int main()
-{
+//int main()
+//{
 	//UniformInitialization();
 
 	// 使用自定义初值列
@@ -29,8 +30,8 @@ int main()
 
 	//MoveSemanticRvalueReference();
 
-	StringLiteral();
-}
+	//StringLiteral();
+//}
 
 // 一致性初始化
 void UniformInitialization()
@@ -105,4 +106,15 @@ void StringLiteral()
 	// L: wide string literal, wchar_t. 注意要使用wcout输出
 	cout << u8"UTF8-encoding" << endl;
 	std::wcout << L"wide string literal, wchar_t" << endl;
+}
+
+// 关键字 noexcept: 指明函数无法抛出异常
+// 如果抛出异常,程序会被终止.然后std::terminate()会调用std::abort()
+
+// 关键字 constexpr: 让函数编译器计算
+// float a[square(9)], 可以通过编译,a有81个元素
+// 实际上编译无法通过
+constexpr int square(int x)
+{
+	return x * x;
 }
