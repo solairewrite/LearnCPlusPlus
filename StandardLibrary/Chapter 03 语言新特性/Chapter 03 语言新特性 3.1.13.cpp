@@ -82,13 +82,27 @@ void MemberTemplateTest()
 	d.assign(i);
 }
 
+// 使用明确的构造函数调用,但是不给实参,基础类型会被初始化为0
+void ExplicitInitialization()
+{
+	int i1; // 未定义值
+	int i2 = int(); // 初始化为0
+	int i3{}; // 初始化为0
+
+	// cout << i1 << endl; 错误, i1未初始化
+	cout << i2 << endl;
+	cout << i3 << endl;
+}
+
 int main()
 {
 	//MyClass<int> x1;
 
 	//typenameTest();
 
-	MemberTemplateTest();
+	//MemberTemplateTest();
+
+	ExplicitInitialization();
 
 
 	system("pause");
