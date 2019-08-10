@@ -2,6 +2,7 @@
 #include <bitset>
 #include <vector>
 #include <functional>
+#include <map>
 
 using namespace std;
 
@@ -97,6 +98,21 @@ std::function<int(int, int)> returnLambda()
 	};
 }
 
+// 关键字 decltype: 让编译器找出表达式类型
+void decltypeTest()
+{
+	std::map<std::string, float> coll;
+	decltype(coll)::value_type elem;
+}
+
+// 新的函数声明语法,将函数的返回类型转而声明于参数列之后
+template<typename T1, typename T2>
+auto add(T1 x, T2 y) -> decltype(x + y)
+{
+	return x + y;
+}
+
+/**
 int main()
 {
 	//print(7.5, "hello", std::bitset<16>(377), 42);
@@ -105,8 +121,14 @@ int main()
 	//Lambda2();
 	//Lambda3();
 
-	auto lf = returnLambda();
-	cout << lf(6, 7) << endl; // 42
+	//auto lf = returnLambda();
+	//cout << lf(6, 7) << endl; // 42
+
+	//decltypeTest();
+
+	cout << int('b') << endl;
+	cout << add('b', 1.2f) << endl;
 
 	//system("pause");
 }
+*/
