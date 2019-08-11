@@ -1,4 +1,4 @@
-// P61 struct pair 操作函数列表
+// P61 pair 操作列表
 #include <iostream>
 #include <utility> // std::pair
 #include <functional> // std::ref
@@ -35,12 +35,12 @@ void Test_make_pair();
 void f(std::pair<int, const char*>) {};
 void g(std::pair<const int, std::string>) {};
 
-int main()
-{
-	//TupleLikeInterface();
-
-	Test_make_pair();
-}
+//int main()
+//{
+//	//TupleLikeInterface();
+//
+//	Test_make_pair();
+//}
 
 void Test_make_pair()
 {

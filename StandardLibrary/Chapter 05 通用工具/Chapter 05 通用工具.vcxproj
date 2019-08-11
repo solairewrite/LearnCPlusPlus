@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="5.1.1 Pair.cpp" />
+    <ClCompile Include="5.1.2 Tuple.cpp" />
     <ClCompile Include="Chapter 05 通用工具.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
