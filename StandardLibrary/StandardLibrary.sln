@@ -7,6 +7,360 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StandardLibrary", "Standard
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter 03 语言新特性", "Chapter 03 语言新特性\Chapter 03 语言新特性.vcxproj", "{51014DC0-FAB7-4203-A985-2DA9ABC3F46C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cppstdlib", "cppstdlib", "{156CCF44-2A56-405B-A998-FB9A07D1569B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "util", "util", "{49D1AE20-9D2B-415D-A558-6C8C3F5D0048}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\util\chrono1.cpp = ..\cppstdlib-code\util\chrono1.cpp
+		..\cppstdlib-code\util\chrono2.cpp = ..\cppstdlib-code\util\chrono2.cpp
+		..\cppstdlib-code\util\clock.hpp = ..\cppstdlib-code\util\clock.hpp
+		..\cppstdlib-code\util\clock1.cpp = ..\cppstdlib-code\util\clock1.cpp
+		..\cppstdlib-code\util\enableshared1.cpp = ..\cppstdlib-code\util\enableshared1.cpp
+		..\cppstdlib-code\util\exception.hpp = ..\cppstdlib-code\util\exception.hpp
+		..\cppstdlib-code\util\limits1.cpp = ..\cppstdlib-code\util\limits1.cpp
+		..\cppstdlib-code\util\minmax1.cpp = ..\cppstdlib-code\util\minmax1.cpp
+		..\cppstdlib-code\util\pair1.cpp = ..\cppstdlib-code\util\pair1.cpp
+		..\cppstdlib-code\util\printtuple.hpp = ..\cppstdlib-code\util\printtuple.hpp
+		..\cppstdlib-code\util\ratio1.cpp = ..\cppstdlib-code\util\ratio1.cpp
+		..\cppstdlib-code\util\sharedptr1.cpp = ..\cppstdlib-code\util\sharedptr1.cpp
+		..\cppstdlib-code\util\sharedptr2.cpp = ..\cppstdlib-code\util\sharedptr2.cpp
+		..\cppstdlib-code\util\sharedptr3.cpp = ..\cppstdlib-code\util\sharedptr3.cpp
+		..\cppstdlib-code\util\timepoint.hpp = ..\cppstdlib-code\util\timepoint.hpp
+		..\cppstdlib-code\util\timepoint1.cpp = ..\cppstdlib-code\util\timepoint1.cpp
+		..\cppstdlib-code\util\tuple1.cpp = ..\cppstdlib-code\util\tuple1.cpp
+		..\cppstdlib-code\util\tuple2.cpp = ..\cppstdlib-code\util\tuple2.cpp
+		..\cppstdlib-code\util\uniqueptr1.cpp = ..\cppstdlib-code\util\uniqueptr1.cpp
+		..\cppstdlib-code\util\weakptr1.cpp = ..\cppstdlib-code\util\weakptr1.cpp
+		..\cppstdlib-code\util\weakptr2.cpp = ..\cppstdlib-code\util\weakptr2.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "algo", "algo", "{A4ECC973-07AF-4BAF-8448-697B3436BE3C}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\algo\accumulate1.cpp = ..\cppstdlib-code\algo\accumulate1.cpp
+		..\cppstdlib-code\algo\adjacentdiff1.cpp = ..\cppstdlib-code\algo\adjacentdiff1.cpp
+		..\cppstdlib-code\algo\adjacentfind1.cpp = ..\cppstdlib-code\algo\adjacentfind1.cpp
+		..\cppstdlib-code\algo\algostuff.hpp = ..\cppstdlib-code\algo\algostuff.hpp
+		..\cppstdlib-code\algo\allanynone1.cpp = ..\cppstdlib-code\algo\allanynone1.cpp
+		..\cppstdlib-code\algo\binarysearch1.cpp = ..\cppstdlib-code\algo\binarysearch1.cpp
+		..\cppstdlib-code\algo\bounds1.cpp = ..\cppstdlib-code\algo\bounds1.cpp
+		..\cppstdlib-code\algo\copy1.cpp = ..\cppstdlib-code\algo\copy1.cpp
+		..\cppstdlib-code\algo\copy2.cpp = ..\cppstdlib-code\algo\copy2.cpp
+		..\cppstdlib-code\algo\copy3.cpp = ..\cppstdlib-code\algo\copy3.cpp
+		..\cppstdlib-code\algo\count1.cpp = ..\cppstdlib-code\algo\count1.cpp
+		..\cppstdlib-code\algo\equal1.cpp = ..\cppstdlib-code\algo\equal1.cpp
+		..\cppstdlib-code\algo\equalrange1.cpp = ..\cppstdlib-code\algo\equalrange1.cpp
+		..\cppstdlib-code\algo\fill1.cpp = ..\cppstdlib-code\algo\fill1.cpp
+		..\cppstdlib-code\algo\find1.cpp = ..\cppstdlib-code\algo\find1.cpp
+		..\cppstdlib-code\algo\find2.cpp = ..\cppstdlib-code\algo\find2.cpp
+		..\cppstdlib-code\algo\findend1.cpp = ..\cppstdlib-code\algo\findend1.cpp
+		..\cppstdlib-code\algo\findof1.cpp = ..\cppstdlib-code\algo\findof1.cpp
+		..\cppstdlib-code\algo\foreach1.cpp = ..\cppstdlib-code\algo\foreach1.cpp
+		..\cppstdlib-code\algo\foreach2.cpp = ..\cppstdlib-code\algo\foreach2.cpp
+		..\cppstdlib-code\algo\foreach3.cpp = ..\cppstdlib-code\algo\foreach3.cpp
+		..\cppstdlib-code\algo\generate1.cpp = ..\cppstdlib-code\algo\generate1.cpp
+		..\cppstdlib-code\algo\heap1.cpp = ..\cppstdlib-code\algo\heap1.cpp
+		..\cppstdlib-code\algo\includes1.cpp = ..\cppstdlib-code\algo\includes1.cpp
+		..\cppstdlib-code\algo\innerproduct1.cpp = ..\cppstdlib-code\algo\innerproduct1.cpp
+		..\cppstdlib-code\algo\inplacemerge1.cpp = ..\cppstdlib-code\algo\inplacemerge1.cpp
+		..\cppstdlib-code\algo\iota1.cpp = ..\cppstdlib-code\algo\iota1.cpp
+		..\cppstdlib-code\algo\isheap1.cpp = ..\cppstdlib-code\algo\isheap1.cpp
+		..\cppstdlib-code\algo\ispartitioned1.cpp = ..\cppstdlib-code\algo\ispartitioned1.cpp
+		..\cppstdlib-code\algo\ispermutation1.cpp = ..\cppstdlib-code\algo\ispermutation1.cpp
+		..\cppstdlib-code\algo\issorted1.cpp = ..\cppstdlib-code\algo\issorted1.cpp
+		..\cppstdlib-code\algo\lexicocmp1.cpp = ..\cppstdlib-code\algo\lexicocmp1.cpp
+		..\cppstdlib-code\algo\merge1.cpp = ..\cppstdlib-code\algo\merge1.cpp
+		..\cppstdlib-code\algo\minmax1.cpp = ..\cppstdlib-code\algo\minmax1.cpp
+		..\cppstdlib-code\algo\mismatch1.cpp = ..\cppstdlib-code\algo\mismatch1.cpp
+		..\cppstdlib-code\algo\move1.cpp = ..\cppstdlib-code\algo\move1.cpp
+		..\cppstdlib-code\algo\nthelement1.cpp = ..\cppstdlib-code\algo\nthelement1.cpp
+		..\cppstdlib-code\algo\partialsort1.cpp = ..\cppstdlib-code\algo\partialsort1.cpp
+		..\cppstdlib-code\algo\partialsort2.cpp = ..\cppstdlib-code\algo\partialsort2.cpp
+		..\cppstdlib-code\algo\partialsum1.cpp = ..\cppstdlib-code\algo\partialsum1.cpp
+		..\cppstdlib-code\algo\partition1.cpp = ..\cppstdlib-code\algo\partition1.cpp
+		..\cppstdlib-code\algo\partitioncopy1.cpp = ..\cppstdlib-code\algo\partitioncopy1.cpp
+		..\cppstdlib-code\algo\permutation1.cpp = ..\cppstdlib-code\algo\permutation1.cpp
+		..\cppstdlib-code\algo\randomshuffle1.cpp = ..\cppstdlib-code\algo\randomshuffle1.cpp
+		..\cppstdlib-code\algo\relabs1.cpp = ..\cppstdlib-code\algo\relabs1.cpp
+		..\cppstdlib-code\algo\remove1.cpp = ..\cppstdlib-code\algo\remove1.cpp
+		..\cppstdlib-code\algo\remove2.cpp = ..\cppstdlib-code\algo\remove2.cpp
+		..\cppstdlib-code\algo\replace1.cpp = ..\cppstdlib-code\algo\replace1.cpp
+		..\cppstdlib-code\algo\replace2.cpp = ..\cppstdlib-code\algo\replace2.cpp
+		..\cppstdlib-code\algo\reverse1.cpp = ..\cppstdlib-code\algo\reverse1.cpp
+		..\cppstdlib-code\algo\rotate1.cpp = ..\cppstdlib-code\algo\rotate1.cpp
+		..\cppstdlib-code\algo\rotate2.cpp = ..\cppstdlib-code\algo\rotate2.cpp
+		..\cppstdlib-code\algo\search1.cpp = ..\cppstdlib-code\algo\search1.cpp
+		..\cppstdlib-code\algo\search2.cpp = ..\cppstdlib-code\algo\search2.cpp
+		..\cppstdlib-code\algo\searchn1.cpp = ..\cppstdlib-code\algo\searchn1.cpp
+		..\cppstdlib-code\algo\shuffle1.cpp = ..\cppstdlib-code\algo\shuffle1.cpp
+		..\cppstdlib-code\algo\sort1.cpp = ..\cppstdlib-code\algo\sort1.cpp
+		..\cppstdlib-code\algo\sort2.cpp = ..\cppstdlib-code\algo\sort2.cpp
+		..\cppstdlib-code\algo\sorted1.cpp = ..\cppstdlib-code\algo\sorted1.cpp
+		..\cppstdlib-code\algo\swapranges1.cpp = ..\cppstdlib-code\algo\swapranges1.cpp
+		..\cppstdlib-code\algo\transform1.cpp = ..\cppstdlib-code\algo\transform1.cpp
+		..\cppstdlib-code\algo\transform2.cpp = ..\cppstdlib-code\algo\transform2.cpp
+		..\cppstdlib-code\algo\unique1.cpp = ..\cppstdlib-code\algo\unique1.cpp
+		..\cppstdlib-code\algo\unique2.cpp = ..\cppstdlib-code\algo\unique2.cpp
+		..\cppstdlib-code\algo\unique3.cpp = ..\cppstdlib-code\algo\unique3.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "alloc", "alloc", "{BDD1EB12-249D-4E54-86C8-8E06A0185FD6}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\alloc\myalloc03.cpp = ..\cppstdlib-code\alloc\myalloc03.cpp
+		..\cppstdlib-code\alloc\myalloc03.hpp = ..\cppstdlib-code\alloc\myalloc03.hpp
+		..\cppstdlib-code\alloc\myalloc11.cpp = ..\cppstdlib-code\alloc\myalloc11.cpp
+		..\cppstdlib-code\alloc\myalloc11.hpp = ..\cppstdlib-code\alloc\myalloc11.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "concurrency", "concurrency", "{58E492DB-59CE-4CE9-AB04-60E230A22BCF}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\concurrency\async1.cpp = ..\cppstdlib-code\concurrency\async1.cpp
+		..\cppstdlib-code\concurrency\async2.cpp = ..\cppstdlib-code\concurrency\async2.cpp
+		..\cppstdlib-code\concurrency\async3.cpp = ..\cppstdlib-code\concurrency\async3.cpp
+		..\cppstdlib-code\concurrency\atomics1.cpp = ..\cppstdlib-code\concurrency\atomics1.cpp
+		..\cppstdlib-code\concurrency\condvar1.cpp = ..\cppstdlib-code\concurrency\condvar1.cpp
+		..\cppstdlib-code\concurrency\condvar2.cpp = ..\cppstdlib-code\concurrency\condvar2.cpp
+		..\cppstdlib-code\concurrency\mutex1.cpp = ..\cppstdlib-code\concurrency\mutex1.cpp
+		..\cppstdlib-code\concurrency\promise1.cpp = ..\cppstdlib-code\concurrency\promise1.cpp
+		..\cppstdlib-code\concurrency\sharedfuture1.cpp = ..\cppstdlib-code\concurrency\sharedfuture1.cpp
+		..\cppstdlib-code\concurrency\thread1.cpp = ..\cppstdlib-code\concurrency\thread1.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cont", "cont", "{E404608D-99B6-4F39-8DE0-4E95D6EDC291}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\cont\array1.cpp = ..\cppstdlib-code\cont\array1.cpp
+		..\cppstdlib-code\cont\buckets.hpp = ..\cppstdlib-code\cont\buckets.hpp
+		..\cppstdlib-code\cont\cstylearray1.cpp = ..\cppstdlib-code\cont\cstylearray1.cpp
+		..\cppstdlib-code\cont\cstylearray1old.cpp = ..\cppstdlib-code\cont\cstylearray1old.cpp
+		..\cppstdlib-code\cont\deque1.cpp = ..\cppstdlib-code\cont\deque1.cpp
+		..\cppstdlib-code\cont\findbefore.hpp = ..\cppstdlib-code\cont\findbefore.hpp
+		..\cppstdlib-code\cont\forwardlist1.cpp = ..\cppstdlib-code\cont\forwardlist1.cpp
+		..\cppstdlib-code\cont\forwardlistfind1.cpp = ..\cppstdlib-code\cont\forwardlistfind1.cpp
+		..\cppstdlib-code\cont\forwardlistsplice1.cpp = ..\cppstdlib-code\cont\forwardlistsplice1.cpp
+		..\cppstdlib-code\cont\hashfunc1.cpp = ..\cppstdlib-code\cont\hashfunc1.cpp
+		..\cppstdlib-code\cont\hashfunc2.cpp = ..\cppstdlib-code\cont\hashfunc2.cpp
+		..\cppstdlib-code\cont\hashval.hpp = ..\cppstdlib-code\cont\hashval.hpp
+		..\cppstdlib-code\cont\list1.cpp = ..\cppstdlib-code\cont\list1.cpp
+		..\cppstdlib-code\cont\map1.cpp = ..\cppstdlib-code\cont\map1.cpp
+		..\cppstdlib-code\cont\map2.cpp = ..\cppstdlib-code\cont\map2.cpp
+		..\cppstdlib-code\cont\mapcmp1.cpp = ..\cppstdlib-code\cont\mapcmp1.cpp
+		..\cppstdlib-code\cont\mapfind1.cpp = ..\cppstdlib-code\cont\mapfind1.cpp
+		..\cppstdlib-code\cont\multimap1.cpp = ..\cppstdlib-code\cont\multimap1.cpp
+		..\cppstdlib-code\cont\multiset1.cpp = ..\cppstdlib-code\cont\multiset1.cpp
+		..\cppstdlib-code\cont\newkey.hpp = ..\cppstdlib-code\cont\newkey.hpp
+		..\cppstdlib-code\cont\print.hpp = ..\cppstdlib-code\cont\print.hpp
+		..\cppstdlib-code\cont\refsem1.cpp = ..\cppstdlib-code\cont\refsem1.cpp
+		..\cppstdlib-code\cont\refwrap1.cpp = ..\cppstdlib-code\cont\refwrap1.cpp
+		..\cppstdlib-code\cont\set1.cpp = ..\cppstdlib-code\cont\set1.cpp
+		..\cppstdlib-code\cont\setcmp1.cpp = ..\cppstdlib-code\cont\setcmp1.cpp
+		..\cppstdlib-code\cont\setrange1.cpp = ..\cppstdlib-code\cont\setrange1.cpp
+		..\cppstdlib-code\cont\sortset.cpp = ..\cppstdlib-code\cont\sortset.cpp
+		..\cppstdlib-code\cont\sortvec.cpp = ..\cppstdlib-code\cont\sortvec.cpp
+		..\cppstdlib-code\cont\unordinspect1.cpp = ..\cppstdlib-code\cont\unordinspect1.cpp
+		..\cppstdlib-code\cont\unordmultimap1.cpp = ..\cppstdlib-code\cont\unordmultimap1.cpp
+		..\cppstdlib-code\cont\unordmultiset1.cpp = ..\cppstdlib-code\cont\unordmultiset1.cpp
+		..\cppstdlib-code\cont\unordset1.cpp = ..\cppstdlib-code\cont\unordset1.cpp
+		..\cppstdlib-code\cont\vector1.cpp = ..\cppstdlib-code\cont\vector1.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "contadapt", "contadapt", "{051D7040-C392-43E7-8CA7-868719C72863}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\contadapt\bitset1.cpp = ..\cppstdlib-code\contadapt\bitset1.cpp
+		..\cppstdlib-code\contadapt\bitset2.cpp = ..\cppstdlib-code\contadapt\bitset2.cpp
+		..\cppstdlib-code\contadapt\priorityqueue1.cpp = ..\cppstdlib-code\contadapt\priorityqueue1.cpp
+		..\cppstdlib-code\contadapt\Queue.hpp = ..\cppstdlib-code\contadapt\Queue.hpp
+		..\cppstdlib-code\contadapt\queue1.cpp = ..\cppstdlib-code\contadapt\queue1.cpp
+		..\cppstdlib-code\contadapt\queue2.cpp = ..\cppstdlib-code\contadapt\queue2.cpp
+		..\cppstdlib-code\contadapt\Stack.hpp = ..\cppstdlib-code\contadapt\Stack.hpp
+		..\cppstdlib-code\contadapt\stack1.cpp = ..\cppstdlib-code\contadapt\stack1.cpp
+		..\cppstdlib-code\contadapt\stack2.cpp = ..\cppstdlib-code\contadapt\stack2.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fo", "fo", "{F9B20C41-C051-4A0C-AEC7-3E1E934DB4ED}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\fo\bind1.cpp = ..\cppstdlib-code\fo\bind1.cpp
+		..\cppstdlib-code\fo\bind2.cpp = ..\cppstdlib-code\fo\bind2.cpp
+		..\cppstdlib-code\fo\compose3.cpp = ..\cppstdlib-code\fo\compose3.cpp
+		..\cppstdlib-code\fo\fopow.hpp = ..\cppstdlib-code\fo\fopow.hpp
+		..\cppstdlib-code\fo\fopow1.cpp = ..\cppstdlib-code\fo\fopow1.cpp
+		..\cppstdlib-code\fo\foreach3.cpp = ..\cppstdlib-code\fo\foreach3.cpp
+		..\cppstdlib-code\fo\lambda2.cpp = ..\cppstdlib-code\fo\lambda2.cpp
+		..\cppstdlib-code\fo\lambda3.cpp = ..\cppstdlib-code\fo\lambda3.cpp
+		..\cppstdlib-code\fo\lambda4.cpp = ..\cppstdlib-code\fo\lambda4.cpp
+		..\cppstdlib-code\fo\lambda5.cpp = ..\cppstdlib-code\fo\lambda5.cpp
+		..\cppstdlib-code\fo\lambda6.cpp = ..\cppstdlib-code\fo\lambda6.cpp
+		..\cppstdlib-code\fo\print.hpp = ..\cppstdlib-code\fo\print.hpp
+		..\cppstdlib-code\fo\removeif1.cpp = ..\cppstdlib-code\fo\removeif1.cpp
+		..\cppstdlib-code\fo\sequence1.cpp = ..\cppstdlib-code\fo\sequence1.cpp
+		..\cppstdlib-code\fo\sequence2.cpp = ..\cppstdlib-code\fo\sequence2.cpp
+		..\cppstdlib-code\fo\sort1.cpp = ..\cppstdlib-code\fo\sort1.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "i18n", "i18n", "{A352E094-2375-44CF-A39A-84FAFAD87575}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\i18n\germanbool.cpp = ..\cppstdlib-code\i18n\germanbool.cpp
+		..\cppstdlib-code\i18n\loc1.cpp = ..\cppstdlib-code\i18n\loc1.cpp
+		..\cppstdlib-code\i18n\loc2.cpp = ..\cppstdlib-code\i18n\loc2.cpp
+		..\cppstdlib-code\i18n\moneymanipulator.cpp = ..\cppstdlib-code\i18n\moneymanipulator.cpp
+		..\cppstdlib-code\i18n\moneypunct.cpp = ..\cppstdlib-code\i18n\moneypunct.cpp
+		..\cppstdlib-code\i18n\numget.cpp = ..\cppstdlib-code\i18n\numget.cpp
+		..\cppstdlib-code\i18n\numput.cpp = ..\cppstdlib-code\i18n\numput.cpp
+		..\cppstdlib-code\i18n\timeget.cpp = ..\cppstdlib-code\i18n\timeget.cpp
+		..\cppstdlib-code\i18n\timeput.cpp = ..\cppstdlib-code\i18n\timeput.cpp
+		..\cppstdlib-code\i18n\wbuffer.cpp = ..\cppstdlib-code\i18n\wbuffer.cpp
+		..\cppstdlib-code\i18n\wstring2string.cpp = ..\cppstdlib-code\i18n\wstring2string.cpp
+		..\cppstdlib-code\i18n\wstring2string.hpp = ..\cppstdlib-code\i18n\wstring2string.hpp
+		..\cppstdlib-code\i18n\wstring2utf8.cpp = ..\cppstdlib-code\i18n\wstring2utf8.cpp
+		..\cppstdlib-code\i18n\wstring2utf8.hpp = ..\cppstdlib-code\i18n\wstring2utf8.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "io", "io", "{0637621A-7E44-49A8-BF64-EF758C026436}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\io\cat1.cpp = ..\cppstdlib-code\io\cat1.cpp
+		..\cppstdlib-code\io\cat2.cpp = ..\cppstdlib-code\io\cat2.cpp
+		..\cppstdlib-code\io\charcat1.cpp = ..\cppstdlib-code\io\charcat1.cpp
+		..\cppstdlib-code\io\charcat2.cpp = ..\cppstdlib-code\io\charcat2.cpp
+		..\cppstdlib-code\io\copy1.cpp = ..\cppstdlib-code\io\copy1.cpp
+		..\cppstdlib-code\io\copy2.cpp = ..\cppstdlib-code\io\copy2.cpp
+		..\cppstdlib-code\io\countlines1.cpp = ..\cppstdlib-code\io\countlines1.cpp
+		..\cppstdlib-code\io\frac1in.hpp = ..\cppstdlib-code\io\frac1in.hpp
+		..\cppstdlib-code\io\frac1out.hpp = ..\cppstdlib-code\io\frac1out.hpp
+		..\cppstdlib-code\io\frac2in.hpp = ..\cppstdlib-code\io\frac2in.hpp
+		..\cppstdlib-code\io\frac2out.hpp = ..\cppstdlib-code\io\frac2out.hpp
+		..\cppstdlib-code\io\fstream1.cpp = ..\cppstdlib-code\io\fstream1.cpp
+		..\cppstdlib-code\io\fstream2.cpp = ..\cppstdlib-code\io\fstream2.cpp
+		..\cppstdlib-code\io\ignore1.cpp = ..\cppstdlib-code\io\ignore1.cpp
+		..\cppstdlib-code\io\ignore1.hpp = ..\cppstdlib-code\io\ignore1.hpp
+		..\cppstdlib-code\io\ignore2.cpp = ..\cppstdlib-code\io\ignore2.cpp
+		..\cppstdlib-code\io\ignore2.hpp = ..\cppstdlib-code\io\ignore2.hpp
+		..\cppstdlib-code\io\inbuf1.cpp = ..\cppstdlib-code\io\inbuf1.cpp
+		..\cppstdlib-code\io\inbuf1.hpp = ..\cppstdlib-code\io\inbuf1.hpp
+		..\cppstdlib-code\io\io1.cpp = ..\cppstdlib-code\io\io1.cpp
+		..\cppstdlib-code\io\outbuf1.cpp = ..\cppstdlib-code\io\outbuf1.cpp
+		..\cppstdlib-code\io\outbuf1.hpp = ..\cppstdlib-code\io\outbuf1.hpp
+		..\cppstdlib-code\io\outbuf1i18n.cpp = ..\cppstdlib-code\io\outbuf1i18n.cpp
+		..\cppstdlib-code\io\outbuf1i18n.hpp = ..\cppstdlib-code\io\outbuf1i18n.hpp
+		..\cppstdlib-code\io\outbuf2.cpp = ..\cppstdlib-code\io\outbuf2.cpp
+		..\cppstdlib-code\io\outbuf2.hpp = ..\cppstdlib-code\io\outbuf2.hpp
+		..\cppstdlib-code\io\outbuf3.cpp = ..\cppstdlib-code\io\outbuf3.cpp
+		..\cppstdlib-code\io\outbuf3.hpp = ..\cppstdlib-code\io\outbuf3.hpp
+		..\cppstdlib-code\io\sstream1.cpp = ..\cppstdlib-code\io\sstream1.cpp
+		..\cppstdlib-code\io\sstream2.cpp = ..\cppstdlib-code\io\sstream2.cpp
+		..\cppstdlib-code\io\streambuffer1.cpp = ..\cppstdlib-code\io\streambuffer1.cpp
+		..\cppstdlib-code\io\streambuffer2.cpp = ..\cppstdlib-code\io\streambuffer2.cpp
+		..\cppstdlib-code\io\streamreadwrite1.cpp = ..\cppstdlib-code\io\streamreadwrite1.cpp
+		..\cppstdlib-code\io\streamredirect1.cpp = ..\cppstdlib-code\io\streamredirect1.cpp
+		..\cppstdlib-code\io\sum1.cpp = ..\cppstdlib-code\io\sum1.cpp
+		..\cppstdlib-code\io\sum2.cpp = ..\cppstdlib-code\io\sum2.cpp
+		..\cppstdlib-code\io\timemanipulator1.cpp = ..\cppstdlib-code\io\timemanipulator1.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iter", "iter", "{5FEB6148-9856-4002-B44D-734653D8A55D}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\iter\advance1.cpp = ..\cppstdlib-code\iter\advance1.cpp
+		..\cppstdlib-code\iter\advance2.cpp = ..\cppstdlib-code\iter\advance2.cpp
+		..\cppstdlib-code\iter\assoiter.hpp = ..\cppstdlib-code\iter\assoiter.hpp
+		..\cppstdlib-code\iter\assoiter1.cpp = ..\cppstdlib-code\iter\assoiter1.cpp
+		..\cppstdlib-code\iter\backinserter1.cpp = ..\cppstdlib-code\iter\backinserter1.cpp
+		..\cppstdlib-code\iter\distance1.cpp = ..\cppstdlib-code\iter\distance1.cpp
+		..\cppstdlib-code\iter\frontinserter1.cpp = ..\cppstdlib-code\iter\frontinserter1.cpp
+		..\cppstdlib-code\iter\inserter1.cpp = ..\cppstdlib-code\iter\inserter1.cpp
+		..\cppstdlib-code\iter\istreamiter1.cpp = ..\cppstdlib-code\iter\istreamiter1.cpp
+		..\cppstdlib-code\iter\itercategory1.cpp = ..\cppstdlib-code\iter\itercategory1.cpp
+		..\cppstdlib-code\iter\iterswap1.cpp = ..\cppstdlib-code\iter\iterswap1.cpp
+		..\cppstdlib-code\iter\ostreamiter1.cpp = ..\cppstdlib-code\iter\ostreamiter1.cpp
+		..\cppstdlib-code\iter\print.hpp = ..\cppstdlib-code\iter\print.hpp
+		..\cppstdlib-code\iter\reviter1.cpp = ..\cppstdlib-code\iter\reviter1.cpp
+		..\cppstdlib-code\iter\reviter2.cpp = ..\cppstdlib-code\iter\reviter2.cpp
+		..\cppstdlib-code\iter\reviter3.cpp = ..\cppstdlib-code\iter\reviter3.cpp
+		..\cppstdlib-code\iter\reviter4.cpp = ..\cppstdlib-code\iter\reviter4.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lang", "lang", "{336D8683-A25F-41E6-99F2-599BFFCBEFCD}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\lang\lambda1.cpp = ..\cppstdlib-code\lang\lambda1.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "num", "num", "{BAAD6738-AB95-45E1-8C71-8A5CE09C1BE0}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\num\complex1.cpp = ..\cppstdlib-code\num\complex1.cpp
+		..\cppstdlib-code\num\complex2.cpp = ..\cppstdlib-code\num\complex2.cpp
+		..\cppstdlib-code\num\dist1.cpp = ..\cppstdlib-code\num\dist1.cpp
+		..\cppstdlib-code\num\gslice1.cpp = ..\cppstdlib-code\num\gslice1.cpp
+		..\cppstdlib-code\num\indirectarray1.cpp = ..\cppstdlib-code\num\indirectarray1.cpp
+		..\cppstdlib-code\num\maskarray1.cpp = ..\cppstdlib-code\num\maskarray1.cpp
+		..\cppstdlib-code\num\random1.cpp = ..\cppstdlib-code\num\random1.cpp
+		..\cppstdlib-code\num\random2.cpp = ..\cppstdlib-code\num\random2.cpp
+		..\cppstdlib-code\num\slice1.cpp = ..\cppstdlib-code\num\slice1.cpp
+		..\cppstdlib-code\num\valarray1.cpp = ..\cppstdlib-code\num\valarray1.cpp
+		..\cppstdlib-code\num\valarray2.cpp = ..\cppstdlib-code\num\valarray2.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "regex", "regex", "{76D54669-7329-476D-BDAD-9C4BCA4D40DF}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\regex\regex1.cpp = ..\cppstdlib-code\regex\regex1.cpp
+		..\cppstdlib-code\regex\regex2.cpp = ..\cppstdlib-code\regex\regex2.cpp
+		..\cppstdlib-code\regex\regex3.cpp = ..\cppstdlib-code\regex\regex3.cpp
+		..\cppstdlib-code\regex\regex4.cpp = ..\cppstdlib-code\regex\regex4.cpp
+		..\cppstdlib-code\regex\regex5.cpp = ..\cppstdlib-code\regex\regex5.cpp
+		..\cppstdlib-code\regex\regexexception.hpp = ..\cppstdlib-code\regex\regexexception.hpp
+		..\cppstdlib-code\regex\regexiter1.cpp = ..\cppstdlib-code\regex\regexiter1.cpp
+		..\cppstdlib-code\regex\regextokeniter1.cpp = ..\cppstdlib-code\regex\regextokeniter1.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stl", "stl", "{5D5AB227-013E-4D13-9DFE-B897D27E970C}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\stl\add1.cpp = ..\cppstdlib-code\stl\add1.cpp
+		..\cppstdlib-code\stl\algo1.cpp = ..\cppstdlib-code\stl\algo1.cpp
+		..\cppstdlib-code\stl\algo1old.cpp = ..\cppstdlib-code\stl\algo1old.cpp
+		..\cppstdlib-code\stl\array1.cpp = ..\cppstdlib-code\stl\array1.cpp
+		..\cppstdlib-code\stl\assoarray1.cpp = ..\cppstdlib-code\stl\assoarray1.cpp
+		..\cppstdlib-code\stl\bind1.cpp = ..\cppstdlib-code\stl\bind1.cpp
+		..\cppstdlib-code\stl\copy1.cpp = ..\cppstdlib-code\stl\copy1.cpp
+		..\cppstdlib-code\stl\copy2.cpp = ..\cppstdlib-code\stl\copy2.cpp
+		..\cppstdlib-code\stl\copybug.cpp = ..\cppstdlib-code\stl\copybug.cpp
+		..\cppstdlib-code\stl\deque1.cpp = ..\cppstdlib-code\stl\deque1.cpp
+		..\cppstdlib-code\stl\find1.cpp = ..\cppstdlib-code\stl\find1.cpp
+		..\cppstdlib-code\stl\fo1.cpp = ..\cppstdlib-code\stl\fo1.cpp
+		..\cppstdlib-code\stl\foreach1.cpp = ..\cppstdlib-code\stl\foreach1.cpp
+		..\cppstdlib-code\stl\foreach2.cpp = ..\cppstdlib-code\stl\foreach2.cpp
+		..\cppstdlib-code\stl\forwardlist1.cpp = ..\cppstdlib-code\stl\forwardlist1.cpp
+		..\cppstdlib-code\stl\ioiter1.cpp = ..\cppstdlib-code\stl\ioiter1.cpp
+		..\cppstdlib-code\stl\iterbug.cpp = ..\cppstdlib-code\stl\iterbug.cpp
+		..\cppstdlib-code\stl\lambda1.cpp = ..\cppstdlib-code\stl\lambda1.cpp
+		..\cppstdlib-code\stl\list1.cpp = ..\cppstdlib-code\stl\list1.cpp
+		..\cppstdlib-code\stl\list1old.cpp = ..\cppstdlib-code\stl\list1old.cpp
+		..\cppstdlib-code\stl\list2.cpp = ..\cppstdlib-code\stl\list2.cpp
+		..\cppstdlib-code\stl\multimap1.cpp = ..\cppstdlib-code\stl\multimap1.cpp
+		..\cppstdlib-code\stl\multiset1.cpp = ..\cppstdlib-code\stl\multiset1.cpp
+		..\cppstdlib-code\stl\prime1.cpp = ..\cppstdlib-code\stl\prime1.cpp
+		..\cppstdlib-code\stl\print.hpp = ..\cppstdlib-code\stl\print.hpp
+		..\cppstdlib-code\stl\remove1.cpp = ..\cppstdlib-code\stl\remove1.cpp
+		..\cppstdlib-code\stl\remove2.cpp = ..\cppstdlib-code\stl\remove2.cpp
+		..\cppstdlib-code\stl\remove3.cpp = ..\cppstdlib-code\stl\remove3.cpp
+		..\cppstdlib-code\stl\remove4.cpp = ..\cppstdlib-code\stl\remove4.cpp
+		..\cppstdlib-code\stl\reviter1.cpp = ..\cppstdlib-code\stl\reviter1.cpp
+		..\cppstdlib-code\stl\set1.cpp = ..\cppstdlib-code\stl\set1.cpp
+		..\cppstdlib-code\stl\sort1.cpp = ..\cppstdlib-code\stl\sort1.cpp
+		..\cppstdlib-code\stl\sort2.cpp = ..\cppstdlib-code\stl\sort2.cpp
+		..\cppstdlib-code\stl\transform1.cpp = ..\cppstdlib-code\stl\transform1.cpp
+		..\cppstdlib-code\stl\unordmap1.cpp = ..\cppstdlib-code\stl\unordmap1.cpp
+		..\cppstdlib-code\stl\unordmultiset1.cpp = ..\cppstdlib-code\stl\unordmultiset1.cpp
+		..\cppstdlib-code\stl\unordmultiset2.cpp = ..\cppstdlib-code\stl\unordmultiset2.cpp
+		..\cppstdlib-code\stl\vector1.cpp = ..\cppstdlib-code\stl\vector1.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "string", "string", "{9239D04E-F48D-4211-8724-438356B9388B}"
+	ProjectSection(SolutionItems) = preProject
+		..\cppstdlib-code\string\icstring.hpp = ..\cppstdlib-code\string\icstring.hpp
+		..\cppstdlib-code\string\icstring1.cpp = ..\cppstdlib-code\string\icstring1.cpp
+		..\cppstdlib-code\string\string1.cpp = ..\cppstdlib-code\string\string1.cpp
+		..\cppstdlib-code\string\string2.cpp = ..\cppstdlib-code\string\string2.cpp
+		..\cppstdlib-code\string\string3.cpp = ..\cppstdlib-code\string\string3.cpp
+		..\cppstdlib-code\string\stringiter1.cpp = ..\cppstdlib-code\string\stringiter1.cpp
+		..\cppstdlib-code\string\stringiter2.cpp = ..\cppstdlib-code\string\stringiter2.cpp
+		..\cppstdlib-code\string\stringnumconv1.cpp = ..\cppstdlib-code\string\stringnumconv1.cpp
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +388,23 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49D1AE20-9D2B-415D-A558-6C8C3F5D0048} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{A4ECC973-07AF-4BAF-8448-697B3436BE3C} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{BDD1EB12-249D-4E54-86C8-8E06A0185FD6} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{58E492DB-59CE-4CE9-AB04-60E230A22BCF} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{E404608D-99B6-4F39-8DE0-4E95D6EDC291} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{051D7040-C392-43E7-8CA7-868719C72863} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{F9B20C41-C051-4A0C-AEC7-3E1E934DB4ED} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{A352E094-2375-44CF-A39A-84FAFAD87575} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{0637621A-7E44-49A8-BF64-EF758C026436} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{5FEB6148-9856-4002-B44D-734653D8A55D} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{336D8683-A25F-41E6-99F2-599BFFCBEFCD} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{BAAD6738-AB95-45E1-8C71-8A5CE09C1BE0} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{76D54669-7329-476D-BDAD-9C4BCA4D40DF} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{5D5AB227-013E-4D13-9DFE-B897D27E970C} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
+		{9239D04E-F48D-4211-8724-438356B9388B} = {156CCF44-2A56-405B-A998-FB9A07D1569B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {686079FB-1B24-4ED8-97D2-15D9259C1C38}
