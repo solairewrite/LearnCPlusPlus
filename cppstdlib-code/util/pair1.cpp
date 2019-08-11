@@ -20,9 +20,8 @@ int main()
     tuple<int,float> t(1,2.22);
 
     // pass the tuple as a whole to the constructor of Foo:
-    pair<int,Foo> p1 (42, t);
+    pair<int,Foo> p1 (42, t); // Foo::Foo(tuple)
 
     // pass the elements of the tuple to the constructor of Foo:
-    pair<int,Foo> p2 (piecewise_construct, make_tuple(42), t);
+    pair<int,Foo> p2 (piecewise_construct, make_tuple(42), t); // Foo::Foo(args...)
 }
-
