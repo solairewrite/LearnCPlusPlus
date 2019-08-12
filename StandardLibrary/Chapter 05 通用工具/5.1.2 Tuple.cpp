@@ -97,17 +97,17 @@ void test_tuple_func()
 	auto tt = std::tuple_cat(std::make_tuple(42, 7.7), std::tie(n));
 }
 
-int main()
-{
-	//TestTuple();
-
-	//test_make_tuple();
-
-	//test_ref_make_tuple();
-
-	//test_tie();
-
-	//test_initializer_list();
-
-	test_tuple_func();
-}
+//int main()
+//{
+//	//TestTuple();
+//
+//	//test_make_tuple();
+//
+//	//test_ref_make_tuple();
+//
+//	//test_tie();
+//
+//	//test_initializer_list();
+//
+//	test_tuple_func();
+//}

@@ -36,4 +36,6 @@ Alt + Space 可以打开文件所在目录的cmd
 + 进入磁盘: D:  
 + 删除文件: del a.exe  
 + 清屏: cls  
-+ 当前路径下的所有文件: dir
++ 当前路径下的所有文件: dir  
++ 创建txt: echo "abc" > tmpfile.txt  
++ 打开记事本: notepad  

@@ -1,13 +1,3 @@
-/* The following code example is taken from the book
- * "The C++ Standard Library - A Tutorial and Reference, 2nd Edition"
- * by Nicolai M. Josuttis, Addison-Wesley, 2012
- *
- * (C) Copyright Nicolai M. Josuttis 2012.
- * Permission to copy, use, modify, sell and distribute this software
- * is granted provided this copyright notice appears in all copies.
- * This software is provided "as is" without express or implied
- * warranty, and with no claim as to its suitability for any purpose.
- */
 #include <iostream>
 #include <string>
 #include <vector>
@@ -34,7 +24,7 @@ int main()
 
     // print all elements
     for (auto ptr : whoMadeCoffee) {
-        cout << *ptr << "  ";
+        cout << *ptr << "  "; // Jutta  Jutta  Nico  Jutta  Nico
     }
     cout << endl;
 
@@ -43,10 +33,11 @@ int main()
 
     // print all elements again
     for (auto ptr : whoMadeCoffee) {
-        cout << *ptr << "  ";
+        cout << *ptr << "  "; // Jutta  Jutta  Nicolai  Jutta  Nicolai
     }
     cout << endl;
     
     // print some internal data
-    cout << "use_count: " << whoMadeCoffee[0].use_count() << endl;
+	// use_count()返回智能指针所指对象的,当前拥有者数量(pJutta和vector内的3份拷贝)
+    cout << "use_count: " << whoMadeCoffee[0].use_count() << endl; // use_count: 4
 }
