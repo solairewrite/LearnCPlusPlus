@@ -1,13 +1,3 @@
-/* The following code example is taken from the book
- * "The C++ Standard Library - A Tutorial and Reference, 2nd Edition"
- * by Nicolai M. Josuttis, Addison-Wesley, 2012
- *
- * (C) Copyright Nicolai M. Josuttis 2012.
- * Permission to copy, use, modify, sell and distribute this software
- * is granted provided this copyright notice appears in all copies.
- * This software is provided "as is" without express or implied
- * warranty, and with no claim as to its suitability for any purpose.
- */
 // 如果本版权声明出现在所有副本中,则允许复制,使用,修改,销售和分发本软件
 // 本软件"按原样"提供,没有明示或暗示的保证,也没有对其适用于任何目的的索赔
 #include <exception>

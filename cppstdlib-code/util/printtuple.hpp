@@ -1,19 +1,14 @@
-/* The following code example is taken from the book
- * "The C++ Standard Library - A Tutorial and Reference, 2nd Edition"
- * by Nicolai M. Josuttis, Addison-Wesley, 2012
- *
- * (C) Copyright Nicolai M. Josuttis 2012.
- * Permission to copy, use, modify, sell and distribute this software
- * is granted provided this copyright notice appears in all copies.
- * This software is provided "as is" without express or implied
- * warranty, and with no claim as to its suitability for any purpose.
- */
+// tuple2.cpp中调用
 #include <tuple>
 #include <iostream>
 
 // helper: print elements with index IDX and higher of tuple t having MAX elements
+// 打印索引[IDX, MAX)范围的元素
+// 运用:模板超编程,在编译期递归迭代
+// 调用: cout << mytuple;
 template <int IDX, int MAX, typename... Args>
 struct PRINT_TUPLE {
+	// 结构体内声明函数
   static void print (std::ostream& strm, const std::tuple<Args...>& t) {
     strm << std::get<IDX>(t) << (IDX+1==MAX ? "" : ",");
     PRINT_TUPLE<IDX+1,MAX,Args...>::print(strm,t);
@@ -21,6 +16,7 @@ struct PRINT_TUPLE {
 };
 
 // partial specialization to end the recursion
+// 偏特化版本终结递归
 template <int MAX, typename... Args>
 struct PRINT_TUPLE<MAX,MAX,Args...> {
   static void print (std::ostream& strm, const std::tuple<Args...>& t) {
