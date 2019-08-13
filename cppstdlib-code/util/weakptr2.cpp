@@ -32,15 +32,15 @@ shared_ptr<Person> initFamily (const string& name)
     return kid;
 }
 
-int main()
-{
-    shared_ptr<Person> p = initFamily("nico");
-
-    cout << "nico's family exists" << endl;
-    cout << "- nico is shared " << p.use_count() << " times" << endl;
-    cout << "- name of 1st kid of nico's mom: " 
-         << p->mother->kids[0].lock()->name << endl;
-
-    p = initFamily("jim");
-    cout << "jim's family exists" << endl;
-}
+//int main()
+//{
+//    shared_ptr<Person> p = initFamily("nico");
+//
+//    cout << "nico's family exists" << endl;
+//    cout << "- nico is shared " << p.use_count() << " times" << endl;
+//    cout << "- name of 1st kid of nico's mom: " 
+//         << p->mother->kids[0].lock()->name << endl;
+//
+//    p = initFamily("jim");
+//    cout << "jim's family exists" << endl;
+//}
