@@ -17,6 +17,9 @@ void test_shared_ptr()
 	// 先声明,再用reset()赋值
 	shared_ptr<string> pNico4;
 	pNico4.reset(new string("nico"));
+
+	// 指针所指对象的,拥有者数量
+	cout << pNico4.use_count() << endl;
 }
 
 // 定义Deleter
@@ -44,11 +47,11 @@ void test_array_deleter()
 	shared_ptr<int> p2(new int[10], std::default_delete<int[]>());
 }
 
-int main()
-{
-	//test_shared_ptr();
-
-	//test_lambda_deleter();
-
-	test_array_deleter();
-}
+//int main()
+//{
+//	test_shared_ptr();
+//
+//	//test_lambda_deleter();
+//
+//	//test_array_deleter();
+//}

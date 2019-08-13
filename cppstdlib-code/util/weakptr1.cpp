@@ -1,13 +1,3 @@
-/* The following code example is taken from the book
- * "The C++ Standard Library - A Tutorial and Reference, 2nd Edition"
- * by Nicolai M. Josuttis, Addison-Wesley, 2012
- *
- * (C) Copyright Nicolai M. Josuttis 2012.
- * Permission to copy, use, modify, sell and distribute this software
- * is granted provided this copyright notice appears in all copies.
- * This software is provided "as is" without express or implied
- * warranty, and with no claim as to its suitability for any purpose.
- */
 #include <iostream>
 #include <string>
 #include <vector>
@@ -47,7 +37,7 @@ int main()
     shared_ptr<Person> p = initFamily("nico");
 
     cout << "nico's family exists" << endl;
-    cout << "- nico is shared " << p.use_count() << " times" << endl;
+    cout << "- nico is shared " << p.use_count() << " times" << endl; // 3
     cout << "- name of 1st kid of nico's mom: " 
          << p->mother->kids[0]->name << endl;
 

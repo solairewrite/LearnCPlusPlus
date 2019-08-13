@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="stdlib">
+      <UniqueIdentifier>{1ed29245-8236-436f-affd-9bbfc2e597c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 05 通用工具.cpp">
@@ -26,6 +29,12 @@
     </ClCompile>
     <ClCompile Include="5.2.1 Class shared_ptr.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5.2.2 Class weak_ptr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weakptr2.cpp">
+      <Filter>stdlib</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
