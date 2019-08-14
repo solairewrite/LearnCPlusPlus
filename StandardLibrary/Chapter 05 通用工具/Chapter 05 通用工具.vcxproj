@@ -156,6 +156,7 @@
     <ClCompile Include="5.2.1 Class shared_ptr.cpp" />
     <ClCompile Include="5.2.2 Class weak_ptr.cpp" />
     <ClCompile Include="Chapter 05 通用工具.cpp" />
+    <ClCompile Include="enableshared1.cpp" />
     <ClCompile Include="weakptr2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -36,5 +36,8 @@
     <ClCompile Include="weakptr2.cpp">
       <Filter>stdlib</Filter>
     </ClCompile>
+    <ClCompile Include="enableshared1.cpp">
+      <Filter>stdlib</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
