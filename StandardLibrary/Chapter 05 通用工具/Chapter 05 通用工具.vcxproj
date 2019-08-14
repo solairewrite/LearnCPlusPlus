@@ -155,6 +155,8 @@
     <ClCompile Include="5.1.2 Tuple.cpp" />
     <ClCompile Include="5.2.1 Class shared_ptr.cpp" />
     <ClCompile Include="5.2.2 Class weak_ptr.cpp" />
+    <ClCompile Include="5.2.4 细究 Shared Pointer 和 Weak Pointer.cpp" />
+    <ClCompile Include="5.2.5 Class unique_ptr.cpp" />
     <ClCompile Include="Chapter 05 通用工具.cpp" />
     <ClCompile Include="enableshared1.cpp" />
     <ClCompile Include="weakptr2.cpp" />

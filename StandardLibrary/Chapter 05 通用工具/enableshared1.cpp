@@ -56,10 +56,10 @@ namespace enableshared1
 	}
 }
 
-int main()
-{
-	shared_ptr<Person> p = enableshared1::initFamily("nico");
-	cout << "mico's family exists" << endl;
-	cout << "mico is shared " << p.use_count() << " times" << endl;
-	cout << "name of 1st kid of nico's mom: " << endl;
-}
+//int main()
+//{
+//	shared_ptr<Person> p = enableshared1::initFamily("nico");
+//	cout << "mico's family exists" << endl;
+//	cout << "mico is shared " << p.use_count() << " times" << endl;
+//	cout << "name of 1st kid of nico's mom: " << endl;
+//}

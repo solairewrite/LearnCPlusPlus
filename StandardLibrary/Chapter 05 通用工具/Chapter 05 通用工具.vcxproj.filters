@@ -39,5 +39,11 @@
     <ClCompile Include="enableshared1.cpp">
       <Filter>stdlib</Filter>
     </ClCompile>
+    <ClCompile Include="5.2.4 细究 Shared Pointer 和 Weak Pointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5.2.5 Class unique_ptr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
