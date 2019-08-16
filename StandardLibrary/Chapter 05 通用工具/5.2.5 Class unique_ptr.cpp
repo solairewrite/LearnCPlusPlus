@@ -36,7 +36,30 @@ void test_unique_ptr()
 	}
 }
 
+void test_move()
+{
+	unique_ptr<string> up1(new string("lala"));
+	unique_ptr<string> up2(std::move(up1));
+	unique_ptr<string> up3 = std::move(up2);
+	// 初始赋值时,新值必须是unique_ptr
+	unique_ptr<string> up4;
+	up4 = unique_ptr<string>(new string("kk"));
+}
+
+// C++无法区分pointer是'指向单对象'或'指向array'
+// 对于array应该使用delete[]
+void test_array()
+{
+	std::unique_ptr<std::string[]> up(new std::string[10]);
+
+	cout << up[0] << endl;
+}
+
 int main()
 {
-	test_unique_ptr();
+	//test_unique_ptr();
+
+	//test_move();
+
+	test_array();
 }
