@@ -1,3 +1,6 @@
+// P111 unique_ptr 操作列表
+// 示例: util/uniqueptr1.cpp
+
 #include <iostream>
 #include <memory>
 
@@ -55,11 +58,11 @@ void test_array()
 	cout << up[0] << endl;
 }
 
-int main()
-{
-	//test_unique_ptr();
-
-	//test_move();
-
-	test_array();
-}
+//int main()
+//{
+//	//test_unique_ptr();
+//
+//	//test_move();
+//
+//	test_array();
+//}
