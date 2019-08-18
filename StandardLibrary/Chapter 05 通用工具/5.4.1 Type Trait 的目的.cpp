@@ -1,3 +1,9 @@
+// P126 类型判断工具列表
+// P127 针对class的trait列表
+// P128 用以检验类型关系的trait列表
+// P130 类型改变的trait列表
+// P131 其他Type Trait
+
 #include <iostream>
 #include <type_traits>
 
@@ -61,15 +67,15 @@ typename std::common_type<T1, T2>::type minval(const T1& x, const T2& y)
 	return (x < y) ? x : y;
 }
 
-int main()
-{
-	//foo(3);
-	//foo(new string("lala"));
-
-	//foo2(3);
-	//foo2(new string("lala"));
-
-	foo3(3, "lala");
-
-	cout << minval(10, 3.7) << endl;
-}
+//int main()
+//{
+//	//foo(3);
+//	//foo(new string("lala"));
+//
+//	//foo2(3);
+//	//foo2(new string("lala"));
+//
+//	foo3(3, "lala");
+//
+//	cout << minval(10, 3.7) << endl;
+//}

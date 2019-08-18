@@ -1,9 +1,5 @@
 ﻿# LearnC++
-## VS2019设置
-### 打开命令行
-安装插件 Extensions -> Manage Extensions -> Open Command Line  
-Alt + Space 可以打开文件所在目录的cmd  
-### 使用g++编译cpp文件
+## 使用g++编译cpp文件
 安装 MinGW: Minimalist GNU for Windows  
 >下载mingw-get-setup.exe, 这是个安装器  
 >打开后选中mingw32-gcc-g++-bin, Installation->Applay Changes 进行安装  
@@ -29,7 +25,21 @@ Alt + Space 可以打开文件所在目录的cmd
 
 >g++ xx.cpp -o xx.exe 生成 xx.exe  
 >xx.exe  
-
+## VS2019设置
+### Run窗口打开VS
+win+R打开Run窗口,输入devenv  
+### 打开命令行
+安装插件 Extensions -> Manage Extensions -> Open Command Line  
+Alt + Space 可以打开文件所在目录的cmd  
+### 常用插件
+Open Command Line 打开命令行  
+Visual Assist  
+Markdown Editor 右侧预览.md  
+Output enhancer 输出窗口彩色文字  
+Viasfora 彩色括号  
+ClaudiaIDE 背景图片  
+设置: Tools -> Options -> ClaudiaIDE
+默认图片路径: C:\Users\Administrator\AppData\Local\Microsoft\VisualStudio\16.0_660e1384\Extensions\ornt1lf3.e2w\Images
 ### 其他
 + 预编译头: 右键项目属性->配置属性->C/C++->预编译头->不使用预编译头  
 ## cmd命令
@@ -39,6 +49,7 @@ Alt + Space 可以打开文件所在目录的cmd
 + 当前路径下的所有文件: dir  
 + 创建txt: echo "abc" > tmpfile.txt  
 + 打开记事本: notepad  
++ 关机: shutdown -s -t 00  
 ## 多态 polymorphism
 ### 多态
 允许将子类型的指针赋值给父类型的指针  
