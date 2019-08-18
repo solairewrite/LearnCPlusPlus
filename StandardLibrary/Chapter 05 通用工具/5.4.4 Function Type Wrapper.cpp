@@ -21,25 +21,25 @@ public:
 	}
 };
 
-int main()
-{
-	auto lam = [](int x, int y) {
-		cout << "lam(" << x << ", " << y << ") = " << x + y << endl;
-	};
-
-	// 将函数加入数组中,依次执行
-	std::vector<std::function<void(int, int)>> tasks;
-	tasks.push_back(func);
-	tasks.push_back(lam);
-
-	for (std::function<void(int, int)> f : tasks)
-	{
-		f(33, 66);
-	}
-	cout << endl;
-
-	// 成员函数的调用对象,必须作为第一个实参
-	std::function<void(const C&, int, int)> mf;
-	mf = &C::memfunc;
-	mf(C(), 42, 77);
-}
+//int main()
+//{
+//	auto lam = [](int x, int y) {
+//		cout << "lam(" << x << ", " << y << ") = " << x + y << endl;
+//	};
+//
+//	// 将函数加入数组中,依次执行
+//	std::vector<std::function<void(int, int)>> tasks;
+//	tasks.push_back(func);
+//	tasks.push_back(lam);
+//
+//	for (std::function<void(int, int)> f : tasks)
+//	{
+//		f(33, 66);
+//	}
+//	cout << endl;
+//
+//	// 成员函数的调用对象,必须作为第一个实参
+//	std::function<void(const C&, int, int)> mf;
+//	mf = &C::memfunc;
+//	mf(C(), 42, 77);
+//}

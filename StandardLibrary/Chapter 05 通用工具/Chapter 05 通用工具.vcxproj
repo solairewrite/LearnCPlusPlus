@@ -160,6 +160,7 @@
     <ClCompile Include="5.3 数值的极值.cpp" />
     <ClCompile Include="5.4.1 Type Trait 的目的.cpp" />
     <ClCompile Include="5.4.4 Function Type Wrapper.cpp" />
+    <ClCompile Include="5.5.1 挑选最小值和最大值.cpp" />
     <ClCompile Include="Chapter 05 通用工具.cpp" />
     <ClCompile Include="enableshared1.cpp" />
     <ClCompile Include="weakptr2.cpp" />
