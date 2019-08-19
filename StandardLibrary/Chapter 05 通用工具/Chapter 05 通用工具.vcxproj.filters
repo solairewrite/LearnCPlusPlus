@@ -60,5 +60,11 @@
     <ClCompile Include="5.6 Class ratio 的编译期分数运算.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="5.7.2 Duration (时间段).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5.7.3 Clock (时钟) 和 Timepoint (时间点).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

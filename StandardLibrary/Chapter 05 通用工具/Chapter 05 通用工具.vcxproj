@@ -162,6 +162,8 @@
     <ClCompile Include="5.4.4 Function Type Wrapper.cpp" />
     <ClCompile Include="5.5.1 挑选最小值和最大值.cpp" />
     <ClCompile Include="5.6 Class ratio 的编译期分数运算.cpp" />
+    <ClCompile Include="5.7.2 Duration (时间段).cpp" />
+    <ClCompile Include="5.7.3 Clock (时钟) 和 Timepoint (时间点).cpp" />
     <ClCompile Include="Chapter 05 通用工具.cpp" />
     <ClCompile Include="enableshared1.cpp" />
     <ClCompile Include="weakptr2.cpp" />
