@@ -66,5 +66,8 @@
     <ClCompile Include="5.7.3 Clock (时钟) 和 Timepoint (时间点).cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="chrono1.cpp">
+      <Filter>stdlib</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,5 +1,7 @@
 // P149 Clock提供的操作和类型列表
+// P155 time_point的操作函数列表
 // 示例: util/clock1.cpp
+// 示例: util/chrono1.cpp
 #include <iostream>
 #include <chrono>
 #include <iomanip>
@@ -59,8 +61,8 @@ void test_timepoint()
 	cout << "program runs: " << microsec.count() << " microseconds" << endl;
 }
 
-int main()
-{
-	//test_print_clock();
-	test_timepoint();
-}
+//int main()
+//{
+//	//test_print_clock();
+//	test_timepoint();
+//}

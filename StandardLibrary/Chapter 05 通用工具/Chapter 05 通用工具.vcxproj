@@ -165,6 +165,7 @@
     <ClCompile Include="5.7.2 Duration (时间段).cpp" />
     <ClCompile Include="5.7.3 Clock (时钟) 和 Timepoint (时间点).cpp" />
     <ClCompile Include="Chapter 05 通用工具.cpp" />
+    <ClCompile Include="chrono1.cpp" />
     <ClCompile Include="enableshared1.cpp" />
     <ClCompile Include="weakptr2.cpp" />
   </ItemGroup>
