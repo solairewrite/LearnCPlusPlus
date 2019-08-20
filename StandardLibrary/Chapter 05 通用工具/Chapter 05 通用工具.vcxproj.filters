@@ -69,5 +69,11 @@
     <ClCompile Include="chrono1.cpp">
       <Filter>stdlib</Filter>
     </ClCompile>
+    <ClCompile Include="5.7.4 C和POSIX提供的Date Time函数.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5.8 头文件 cstddef, cstdlib, cstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
