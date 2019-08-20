@@ -32,14 +32,15 @@ win+R打开Run窗口,输入devenv
 安装插件 Extensions -> Manage Extensions -> Open Command Line  
 Alt + Space 可以打开文件所在目录的cmd  
 ### 常用插件
-Open Command Line 打开命令行  
+Open Command Line  
 Visual Assist  
-Markdown Editor 右侧预览.md  
+Markdown Editor  
 Output enhancer 输出窗口彩色文字  
+HLSL Tools for Visual Studio  
 Viasfora 彩色括号  
 ClaudiaIDE 背景图片  
-设置: Tools -> Options -> ClaudiaIDE
-默认图片路径: C:\Users\Administrator\AppData\Local\Microsoft\VisualStudio\16.0_660e1384\Extensions\ornt1lf3.e2w\Images
+>设置: Tools -> Options -> ClaudiaIDE
+默认图片路径: C:\Users\Administrator\AppData\Local\Microsoft\VisualStudio\16.0_660e1384\Extensions\ornt1lf3.e2w\Images  
 ### 其他
 + 预编译头: 右键项目属性->配置属性->C/C++->预编译头->不使用预编译头  
 ## cmd命令
