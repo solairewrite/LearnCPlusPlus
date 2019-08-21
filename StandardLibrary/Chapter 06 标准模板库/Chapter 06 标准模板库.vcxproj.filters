@@ -36,5 +36,11 @@
     <ClCompile Include="array1.cpp">
       <Filter>cppstdlib</Filter>
     </ClCompile>
+    <ClCompile Include="list1.cpp">
+      <Filter>cppstdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="multiset1.cpp">
+      <Filter>cppstdlib</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
