@@ -13,10 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\6.2 容器 Container">
+      <UniqueIdentifier>{b9e059bf-fd9f-4e6f-8b28-34abc865cd36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cppstdlib">
+      <UniqueIdentifier>{24c089d9-df3b-4200-a705-709ec3e317b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 06 标准模板库.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="6.2.1 序列式容器 Sequence Container.cpp">
+      <Filter>Source Files\6.2 容器 Container</Filter>
+    </ClCompile>
+    <ClCompile Include="vector1.cpp">
+      <Filter>cppstdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="deque1.cpp">
+      <Filter>cppstdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="array1.cpp">
+      <Filter>cppstdlib</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
