@@ -158,6 +158,7 @@
     <ClCompile Include="list1.cpp" />
     <ClCompile Include="multimap1.cpp" />
     <ClCompile Include="multiset1.cpp" />
+    <ClCompile Include="unordmap1.cpp" />
     <ClCompile Include="vector1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
