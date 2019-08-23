@@ -39,5 +39,8 @@
     <None Include="Notes\Chapter6.md">
       <Filter>Notes</Filter>
     </None>
+    <None Include="Chapter7.md">
+      <Filter>Notes</Filter>
+    </None>
   </ItemGroup>
 </Project>

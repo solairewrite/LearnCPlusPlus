@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="Chapter7.md" />
     <None Include="Notes\Chapter1,2.md" />
     <None Include="Notes\Chapter3,4.md" />
     <None Include="Notes\Chapter5.md" />
