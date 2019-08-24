@@ -25,6 +25,9 @@
     <Filter Include="Source Files\6.4 算法 Algorithm">
       <UniqueIdentifier>{e8a413ed-3b34-4ca7-a13d-dd51b36906e7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\6.5 迭代器之适配器 Iterator Adapter">
+      <UniqueIdentifier>{a7daecb3-0953-4371-8390-ab8e7dfe42e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 06 标准模板库.cpp">
@@ -65,6 +68,9 @@
     </ClCompile>
     <ClCompile Include="find1.cpp">
       <Filter>cppstdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="6.5.1 Insert Iterator 安插型迭代器.cpp">
+      <Filter>Source Files\6.5 迭代器之适配器 Iterator Adapter</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
