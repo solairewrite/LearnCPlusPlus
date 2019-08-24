@@ -19,6 +19,12 @@
     <Filter Include="cppstdlib">
       <UniqueIdentifier>{24c089d9-df3b-4200-a705-709ec3e317b0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\6.3 迭代器 Iterator">
+      <UniqueIdentifier>{ba3dbe77-b89f-4163-9782-a74b2fca025c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\6.4 算法 Algorithm">
+      <UniqueIdentifier>{e8a413ed-3b34-4ca7-a13d-dd51b36906e7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 06 标准模板库.cpp">
@@ -46,6 +52,18 @@
       <Filter>cppstdlib</Filter>
     </ClCompile>
     <ClCompile Include="unordmap1.cpp">
+      <Filter>cppstdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="6.3 迭代器 Iterator.cpp">
+      <Filter>Source Files\6.3 迭代器 Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="6.4 算法 Algorithm.cpp">
+      <Filter>Source Files\6.4 算法 Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algo1.cpp">
+      <Filter>cppstdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="find1.cpp">
       <Filter>cppstdlib</Filter>
     </ClCompile>
   </ItemGroup>

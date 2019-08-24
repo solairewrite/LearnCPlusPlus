@@ -152,9 +152,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="6.2.1 序列式容器 Sequence Container.cpp" />
+    <ClCompile Include="6.3 迭代器 Iterator.cpp" />
+    <ClCompile Include="6.4 算法 Algorithm.cpp" />
+    <ClCompile Include="algo1.cpp" />
     <ClCompile Include="array1.cpp" />
     <ClCompile Include="Chapter 06 标准模板库.cpp" />
     <ClCompile Include="deque1.cpp" />
+    <ClCompile Include="find1.cpp" />
     <ClCompile Include="list1.cpp" />
     <ClCompile Include="multimap1.cpp" />
     <ClCompile Include="multiset1.cpp" />
