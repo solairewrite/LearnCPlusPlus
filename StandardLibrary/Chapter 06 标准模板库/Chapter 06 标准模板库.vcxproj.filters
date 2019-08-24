@@ -72,5 +72,8 @@
     <ClCompile Include="6.5.1 Insert Iterator 安插型迭代器.cpp">
       <Filter>Source Files\6.5 迭代器之适配器 Iterator Adapter</Filter>
     </ClCompile>
+    <ClCompile Include="6.5.2 Stream Iterator 串流迭代器.cpp">
+      <Filter>Source Files\6.5 迭代器之适配器 Iterator Adapter</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
