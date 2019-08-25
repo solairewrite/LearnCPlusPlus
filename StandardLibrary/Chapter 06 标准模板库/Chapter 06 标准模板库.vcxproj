@@ -156,6 +156,7 @@
     <ClCompile Include="6.4 算法 Algorithm.cpp" />
     <ClCompile Include="6.5.1 Insert Iterator 安插型迭代器.cpp" />
     <ClCompile Include="6.5.2 Stream Iterator 串流迭代器.cpp" />
+    <ClCompile Include="6.7.1 移除 Removing 元素.cpp" />
     <ClCompile Include="algo1.cpp" />
     <ClCompile Include="array1.cpp" />
     <ClCompile Include="Chapter 06 标准模板库.cpp" />
