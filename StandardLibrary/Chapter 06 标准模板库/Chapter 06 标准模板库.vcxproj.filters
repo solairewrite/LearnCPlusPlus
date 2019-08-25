@@ -87,6 +87,9 @@
     <ClCompile Include="6.8.1 以函数作为算法实参的实例示范.cpp">
       <Filter>Source Files\6.8 以函数作为算法的实参</Filter>
     </ClCompile>
+    <ClCompile Include="6.8.2 判断式 Predicate.cpp">
+      <Filter>Source Files\6.8 以函数作为算法的实参</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="print.h">

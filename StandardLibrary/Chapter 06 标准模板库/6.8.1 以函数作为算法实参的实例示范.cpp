@@ -52,8 +52,8 @@ void transform1()
 	PRINT_ELEMENTS(coll2, "squared:     ");
 }
 
-int main()
-{
-	//foreach1();
-	transform1();
-}
+//int main()
+//{
+//	//foreach1();
+//	transform1();
+//}
