@@ -31,6 +31,9 @@
     <Filter Include="Source Files\6.7 更易型算法 Manipulating Algorithm">
       <UniqueIdentifier>{07f982d1-de43-4df4-ad3b-3c08137aa2cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\6.8 以函数作为算法的实参">
+      <UniqueIdentifier>{5d2db11f-e7ee-4b72-8d4b-280dd5c8b051}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 06 标准模板库.cpp">
@@ -81,5 +84,13 @@
     <ClCompile Include="6.7.1 移除 Removing 元素.cpp">
       <Filter>Source Files\6.7 更易型算法 Manipulating Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="6.8.1 以函数作为算法实参的实例示范.cpp">
+      <Filter>Source Files\6.8 以函数作为算法的实参</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="print.h">
+      <Filter>cppstdlib</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

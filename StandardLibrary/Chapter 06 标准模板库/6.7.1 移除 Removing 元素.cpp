@@ -1,8 +1,12 @@
 // 示例: stl/remove1.cpp
+// 示例: stl/remove2.cpp
+// 示例: stl/remove3.cpp
+// 示例: stl/remove4.cpp
 #include <algorithm>
 #include <iterator>
 #include <list>
 #include <iostream>
+#include <set>
 
 using namespace std;
 
@@ -69,8 +73,45 @@ void remove2()
 	// 6 5 4 2 1 1 2 4 5 6
 }
 
-int main()
+void remove3()
 {
-	//remove1();
-	remove2();
+	set<int> coll = { 1,2,3,4,5,6,7,8,9 };
+
+	copy(coll.cbegin(), coll.cend(),
+		ostream_iterator<int>(cout, " "));
+	cout << endl;
+
+	int num = coll.erase(3);
+
+	cout << "number of removed elements: " << num << endl;
+
+	copy(coll.cbegin(), coll.cend(),
+		ostream_iterator<int>(cout, " "));
+	cout << endl;
 }
+
+void remove4()
+{
+	list<int> coll;
+
+	for (int i = 1; i <= 6; ++i)
+	{
+		coll.push_front(i);
+		coll.push_back(i);
+	}
+
+	// list直接删除元素,而不是"搬移"
+	coll.remove(4);
+
+	copy(coll.cbegin(), coll.cend(),
+		ostream_iterator<int>(cout, " "));
+	cout << endl;
+}
+
+//int main()
+//{
+//	//remove1();
+//	//remove2();
+//	//remove3();
+//	remove4();
+//}

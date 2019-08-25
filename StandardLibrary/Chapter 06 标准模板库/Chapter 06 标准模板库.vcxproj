@@ -157,6 +157,7 @@
     <ClCompile Include="6.5.1 Insert Iterator 安插型迭代器.cpp" />
     <ClCompile Include="6.5.2 Stream Iterator 串流迭代器.cpp" />
     <ClCompile Include="6.7.1 移除 Removing 元素.cpp" />
+    <ClCompile Include="6.8.1 以函数作为算法实参的实例示范.cpp" />
     <ClCompile Include="algo1.cpp" />
     <ClCompile Include="array1.cpp" />
     <ClCompile Include="Chapter 06 标准模板库.cpp" />
@@ -167,6 +168,9 @@
     <ClCompile Include="multiset1.cpp" />
     <ClCompile Include="unordmap1.cpp" />
     <ClCompile Include="vector1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="print.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
