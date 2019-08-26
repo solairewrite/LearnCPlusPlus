@@ -151,6 +151,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="6.10.1 定义一个函数对象.cpp" />
+    <ClCompile Include="6.10.2 预定义的函数对象.cpp" />
     <ClCompile Include="6.2.1 序列式容器 Sequence Container.cpp" />
     <ClCompile Include="6.3 迭代器 Iterator.cpp" />
     <ClCompile Include="6.4 算法 Algorithm.cpp" />
@@ -159,6 +161,7 @@
     <ClCompile Include="6.7.1 移除 Removing 元素.cpp" />
     <ClCompile Include="6.8.1 以函数作为算法实参的实例示范.cpp" />
     <ClCompile Include="6.8.2 判断式 Predicate.cpp" />
+    <ClCompile Include="6.9 使用 Lambda.cpp" />
     <ClCompile Include="algo1.cpp" />
     <ClCompile Include="array1.cpp" />
     <ClCompile Include="Chapter 06 标准模板库.cpp" />

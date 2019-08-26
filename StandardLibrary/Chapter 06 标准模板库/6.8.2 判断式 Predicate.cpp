@@ -130,8 +130,8 @@ void sort1()
 	cout << endl;
 }
 
-int main()
-{
-	//prime1();
-	sort1();
-}
+//int main()
+//{
+//	//prime1();
+//	sort1();
+//}

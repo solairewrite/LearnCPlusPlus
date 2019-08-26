@@ -34,6 +34,12 @@
     <Filter Include="Source Files\6.8 以函数作为算法的实参">
       <UniqueIdentifier>{5d2db11f-e7ee-4b72-8d4b-280dd5c8b051}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\6.9 使用 Lambda">
+      <UniqueIdentifier>{29b96e81-d6ef-4f33-ab96-a513c074b0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\6.10 函数对象 Function Object">
+      <UniqueIdentifier>{cfc8781a-dee5-4d1e-8a0a-e4b7a1dca606}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 06 标准模板库.cpp">
@@ -89,6 +95,15 @@
     </ClCompile>
     <ClCompile Include="6.8.2 判断式 Predicate.cpp">
       <Filter>Source Files\6.8 以函数作为算法的实参</Filter>
+    </ClCompile>
+    <ClCompile Include="6.9 使用 Lambda.cpp">
+      <Filter>Source Files\6.9 使用 Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="6.10.1 定义一个函数对象.cpp">
+      <Filter>Source Files\6.10 函数对象 Function Object</Filter>
+    </ClCompile>
+    <ClCompile Include="6.10.2 预定义的函数对象.cpp">
+      <Filter>Source Files\6.10 函数对象 Function Object</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
