@@ -6,3 +6,7 @@ classes 和 templates 都支持接口 (interfaces) 和多态 (polymorphism)
 #### 42: 了解 typename 的双重意义
 声明 template 参数时,前缀关键字 class 和 typename 可互换  
 请使用关键字 typename 标识嵌套从属类型名称  
+#### 43: 学习处理模板化基类内的名称
+可在 derived class templates 内通过 "this->" 指涉 base class templates 内的成员名称,或藉由一个明白写出的 "base class 资格修饰符"完成  
+#### 44: 将参数无关的代码抽离templates
+没看懂  
