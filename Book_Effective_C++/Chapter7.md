@@ -9,4 +9,8 @@ classes 和 templates 都支持接口 (interfaces) 和多态 (polymorphism)
 #### 43: 学习处理模板化基类内的名称
 可在 derived class templates 内通过 "this->" 指涉 base class templates 内的成员名称,或藉由一个明白写出的 "base class 资格修饰符"完成  
 #### 44: 将参数无关的代码抽离templates
-没看懂  
+?  
+#### 45: 运用成员函数模板接受所有兼容类型
+?  
+#### 46: 需要类型转换时请为模板定义非成员函数
+?  
