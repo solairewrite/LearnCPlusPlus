@@ -378,6 +378,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{927EC683
 		Notes\第6章 标准模板库.md = Notes\第6章 标准模板库.md
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter 07 STL 容器", "Chapter 07 STL 容器\Chapter 07 STL 容器.vcxproj", "{E6A50427-BEBC-4549-833F-F21C9B1DFEB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -426,6 +428,14 @@ Global
 		{4D78BF72-7BB1-4FA2-92BF-FBB9CC9A3408}.Release|x64.Build.0 = Release|x64
 		{4D78BF72-7BB1-4FA2-92BF-FBB9CC9A3408}.Release|x86.ActiveCfg = Release|Win32
 		{4D78BF72-7BB1-4FA2-92BF-FBB9CC9A3408}.Release|x86.Build.0 = Release|Win32
+		{E6A50427-BEBC-4549-833F-F21C9B1DFEB3}.Debug|x64.ActiveCfg = Debug|x64
+		{E6A50427-BEBC-4549-833F-F21C9B1DFEB3}.Debug|x64.Build.0 = Debug|x64
+		{E6A50427-BEBC-4549-833F-F21C9B1DFEB3}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6A50427-BEBC-4549-833F-F21C9B1DFEB3}.Debug|x86.Build.0 = Debug|Win32
+		{E6A50427-BEBC-4549-833F-F21C9B1DFEB3}.Release|x64.ActiveCfg = Release|x64
+		{E6A50427-BEBC-4549-833F-F21C9B1DFEB3}.Release|x64.Build.0 = Release|x64
+		{E6A50427-BEBC-4549-833F-F21C9B1DFEB3}.Release|x86.ActiveCfg = Release|Win32
+		{E6A50427-BEBC-4549-833F-F21C9B1DFEB3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
