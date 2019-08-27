@@ -105,6 +105,9 @@
     <ClCompile Include="6.10.2 预定义的函数对象.cpp">
       <Filter>Source Files\6.10 函数对象 Function Object</Filter>
     </ClCompile>
+    <ClCompile Include="Binder.cpp">
+      <Filter>Source Files\6.10 函数对象 Function Object</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="print.h">

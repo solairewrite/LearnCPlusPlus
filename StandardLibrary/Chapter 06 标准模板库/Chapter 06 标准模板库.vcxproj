@@ -164,6 +164,7 @@
     <ClCompile Include="6.9 使用 Lambda.cpp" />
     <ClCompile Include="algo1.cpp" />
     <ClCompile Include="array1.cpp" />
+    <ClCompile Include="Binder.cpp" />
     <ClCompile Include="Chapter 06 标准模板库.cpp" />
     <ClCompile Include="deque1.cpp" />
     <ClCompile Include="find1.cpp" />
