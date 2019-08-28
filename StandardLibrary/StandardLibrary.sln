@@ -376,6 +376,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{927EC683-A05F-42A7-B2E1-B53392E9164F}"
 	ProjectSection(SolutionItems) = preProject
 		Notes\第6章 标准模板库.md = Notes\第6章 标准模板库.md
+		Notes\第7章 STL 容器.md = Notes\第7章 STL 容器.md
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter 07 STL 容器", "Chapter 07 STL 容器\Chapter 07 STL 容器.vcxproj", "{E6A50427-BEBC-4549-833F-F21C9B1DFEB3}"
