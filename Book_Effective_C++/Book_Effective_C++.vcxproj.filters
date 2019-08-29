@@ -27,19 +27,25 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Notes\Chapter1,2.md">
+    <None Include="Notes\Chapter 1 让自己习惯C++.md">
       <Filter>Notes</Filter>
     </None>
-    <None Include="Notes\Chapter3,4.md">
+    <None Include="Notes\Chapter 2 构造析构赋值运算.md">
       <Filter>Notes</Filter>
     </None>
-    <None Include="Notes\Chapter5.md">
+    <None Include="Notes\Chapter 3 资源管理.md">
       <Filter>Notes</Filter>
     </None>
-    <None Include="Notes\Chapter6.md">
+    <None Include="Notes\Chapter 4 设计与声明.md">
       <Filter>Notes</Filter>
     </None>
-    <None Include="Chapter7.md">
+    <None Include="Notes\Chapter 5 实现.md">
+      <Filter>Notes</Filter>
+    </None>
+    <None Include="Notes\Chapter 6 继承与面向对象设计.md">
+      <Filter>Notes</Filter>
+    </None>
+    <None Include="Notes\Chapter 7 模板与泛型编程.md">
       <Filter>Notes</Filter>
     </None>
   </ItemGroup>

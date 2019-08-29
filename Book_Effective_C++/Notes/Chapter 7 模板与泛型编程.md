@@ -15,3 +15,5 @@ classes 和 templates 都支持接口 (interfaces) 和多态 (polymorphism)
 #### 46: 需要类型转换时请为模板定义非成员函数
 ?  
 #### 47: 请使用 traits classes 表现类型信息
+#### 48: 认识template元编程
+Template metaprogramming(TMP, 模板元编程)可将工作由运行期移往编译期,因而得以实现早期错误侦测和更高的执行效率  
