@@ -14,3 +14,4 @@ classes 和 templates 都支持接口 (interfaces) 和多态 (polymorphism)
 ?  
 #### 46: 需要类型转换时请为模板定义非成员函数
 ?  
+#### 47: 请使用 traits classes 表现类型信息
