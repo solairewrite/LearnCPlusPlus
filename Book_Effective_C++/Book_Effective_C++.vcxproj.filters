@@ -48,5 +48,8 @@
     <None Include="Notes\Chapter 7 模板与泛型编程.md">
       <Filter>Notes</Filter>
     </None>
+    <None Include="Notes\Chapter 8 定制 new 和 delete.md">
+      <Filter>Notes</Filter>
+    </None>
   </ItemGroup>
 </Project>
