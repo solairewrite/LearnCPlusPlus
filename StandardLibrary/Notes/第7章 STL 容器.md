@@ -35,3 +35,11 @@
 | const_iterator | "指向只读元素的"iterator的类型 |
 | pointer | "指向元素的"pointer的类型 |
 | const_pointer | "指向只读元素的"pointer的类型 |
+## 7.2 Array
+| 操作 | 效果 |
+| - | - |
+| c.fill(val) | 将val赋值给array c的每一个元素 |
+| c[idx] | 返回索引idx所指的元素(不检查范围) |
+| c.at(idx) | 返回索引idx所指的元素(如果idx超出范围就抛出range-error异常) |
+| c.front() | 返回第一个元素(不检查是否存在第一元素) |
+| c.back() | 返回第最末元素(不检查是否存在最末元素) |
