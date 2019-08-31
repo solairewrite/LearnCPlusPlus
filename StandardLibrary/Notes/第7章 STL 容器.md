@@ -43,3 +43,9 @@
 | c.at(idx) | 返回索引idx所指的元素(如果idx超出范围就抛出range-error异常) |
 | c.front() | 返回第一个元素(不检查是否存在第一元素) |
 | c.back() | 返回第最末元素(不检查是否存在最末元素) |
+## 7.3 Vector
+| 操作 | 效果 |
+| - | - |
+| vector\<Elem> c(n) | 利用元素的default构造函数生成一个大小为n的vector |
+| vector\<Elem> c(n, elem) | 建立一个大小为n的vector,每个元素值都为elem |
+| vector\<Elem> c(beg, end) | 建立一个vector,以区间[beg, end)作为元素初值 |
