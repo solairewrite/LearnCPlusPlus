@@ -46,10 +46,10 @@ void array1()
 	PRINT_ELEMENTS(a);
 }
 
-void main()
-{
-	//init();
-	//tuple_interface();
-	
-	array1();
-}
+//void main()
+//{
+//	//init();
+//	//tuple_interface();
+//	
+//	array1();
+//}

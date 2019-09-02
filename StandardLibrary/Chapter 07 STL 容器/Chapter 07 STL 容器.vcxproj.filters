@@ -16,6 +16,9 @@
     <Filter Include="Source Files\7.2 Array">
       <UniqueIdentifier>{85b8cfdf-ee53-4920-bb6d-85e7954fa1fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\7.3 Vector">
+      <UniqueIdentifier>{3f8d7af9-e558-42b1-a61d-acc9af3db384}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 07 STL 容器.cpp">
@@ -23,6 +26,9 @@
     </ClCompile>
     <ClCompile Include="7.2.1 Array 的能力.cpp">
       <Filter>Source Files\7.2 Array</Filter>
+    </ClCompile>
+    <ClCompile Include="7.3.5 Vector 使用实例.cpp">
+      <Filter>Source Files\7.3 Vector</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
