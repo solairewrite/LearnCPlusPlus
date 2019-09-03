@@ -19,6 +19,9 @@
     <Filter Include="Source Files\7.3 Vector">
       <UniqueIdentifier>{3f8d7af9-e558-42b1-a61d-acc9af3db384}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\7.4 Deque">
+      <UniqueIdentifier>{d78579d1-4baf-4d81-9780-7fd1b0e59f8a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 07 STL 容器.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="7.3.5 Vector 使用实例.cpp">
       <Filter>Source Files\7.3 Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="7.4.4 Deque 运用实例.cpp">
+      <Filter>Source Files\7.4 Deque</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

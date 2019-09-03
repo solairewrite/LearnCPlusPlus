@@ -1,4 +1,9 @@
-﻿# 第7章 STL 容器
+﻿<style>
+table th:first-of-type {
+	min-width: 230px;
+}
+</style>
+# 第7章 STL 容器
 ## 7.1 容器的共通能力和共通操作
 | 操作 | 效果 |
 | - | - |
@@ -44,11 +49,6 @@
 | c.front() | 返回第一个元素(不检查是否存在第一元素) |
 | c.back() | 返回第最末元素(不检查是否存在最末元素) |
 ## 7.3 Vector
-<style>
-table th:first-of-type {
-	min-width: 230px;
-}
-</style>
 | 操作 | 效果 |
 | - | - |
 | vector\<Elem> c(n) | 利用元素的default构造函数生成一个大小为n的vector |
@@ -77,3 +77,20 @@ table th:first-of-type {
 | c.resize(num) | 将元素数量改为num(如果size()变大,多出来的新元素都需以default构造函数完成初始化) |
 | c.resize(num, elem) | 将元素数量改为num(如果size()变大,多出来的新元素都是elem的拷贝) |
 | c.clear() | 移除所有元素,将容器清空 |
+## 7.4 Deque
+接口类似Vector  
+| 操作 | 效果 |
+| - | - |
+| c.push_front(elem) | 在头部插入elem的一个拷贝 |
+| c.pop_front() | 移除第一个元素(但不返回) |
+## 7.5 List
+List对象自身提供了两个pointer,或称anchor(锚点),用来指向第一个和最末一个元素  
+每个元素都有pointer指向前一个和下一个元素(或是指回anchor)  
+如果想要安插新元素,只需操纵对应的pointer即可  
+List提供deque的所有功能  
+| 操作 | 效果 |
+| - | - |
+| c.front() | 返回第一元素(不检查是否存在第一元素) |
+| c.back() | 返回最末元素(不检查是否存在最末元素) |
+| c.remove(val) | 移除所有其值为val的元素 |
+| c.remove_if(op) | 移除所有"造成op(elem)结果为true"的元素 |
