@@ -22,6 +22,9 @@
     <Filter Include="Source Files\7.4 Deque">
       <UniqueIdentifier>{d78579d1-4baf-4d81-9780-7fd1b0e59f8a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\7.5 List">
+      <UniqueIdentifier>{a0d824d2-09fb-406f-a0ab-50e7498daade}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 07 STL 容器.cpp">
@@ -35,6 +38,9 @@
     </ClCompile>
     <ClCompile Include="7.4.4 Deque 运用实例.cpp">
       <Filter>Source Files\7.4 Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="7.5.4 List 运用实例.cpp">
+      <Filter>Source Files\7.5 List</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

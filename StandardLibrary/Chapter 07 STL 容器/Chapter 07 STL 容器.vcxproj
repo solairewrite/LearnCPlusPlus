@@ -154,6 +154,7 @@
     <ClCompile Include="7.2.1 Array 的能力.cpp" />
     <ClCompile Include="7.3.5 Vector 使用实例.cpp" />
     <ClCompile Include="7.4.4 Deque 运用实例.cpp" />
+    <ClCompile Include="7.5.4 List 运用实例.cpp" />
     <ClCompile Include="Chapter 07 STL 容器.cpp" />
   </ItemGroup>
   <ItemGroup>

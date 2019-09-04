@@ -94,3 +94,13 @@ List提供deque的所有功能
 | c.back() | 返回最末元素(不检查是否存在最末元素) |
 | c.remove(val) | 移除所有其值为val的元素 |
 | c.remove_if(op) | 移除所有"造成op(elem)结果为true"的元素 |
+| c.unique() | 如果存在若干相邻而数值相同的元素,就移除重复元素,只留一个 |
+| c.unique(op) | 如果存在若干相邻元素都使op()的结果为true,则移除重复元素,只留一个 |
+| c.splice(pos, c2) | 将c2内的所有元素转移(move)到c之内,迭代器pos之前 |
+| c.splice(pos, c2, c2pos) | 将c2内的c2pos所指元素转移到c内的pos所指位置(c和c2可相同) |
+| c.splice(pos, c2, c2beg, c2end) | 将c2内的[c2beg, c2end)区间内所有元素转移到c内的pos所指位置(c和c2可相同) |
+| c.sort() | 以operator<为准则对所有元素排序 |
+| c.sort(op) | 以op()为准则对所有元素排序 |
+| c.merge(c2) | 假设c和c2容器都包含op()准则下的已排序(sorted)元素,将c2的全部元素转移到c,并保证合并后的list仍为已排序 |
+| c.merge(c2, op) | 假设c和c2容器都包含已排序(sorted)元素,将c2的全部元素转移到c,并保证合并后的list在op()准则下仍为已排序 |
+| c.reverse() | 将所有元素反序(reverse the order) |
