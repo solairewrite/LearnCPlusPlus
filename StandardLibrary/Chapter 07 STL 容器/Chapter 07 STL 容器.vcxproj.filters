@@ -25,6 +25,9 @@
     <Filter Include="Source Files\7.5 List">
       <UniqueIdentifier>{a0d824d2-09fb-406f-a0ab-50e7498daade}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\7.6 Forward List">
+      <UniqueIdentifier>{70a19427-716b-448e-9a41-cb9ddf2104cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 07 STL 容器.cpp">
@@ -41,6 +44,12 @@
     </ClCompile>
     <ClCompile Include="7.5.4 List 运用实例.cpp">
       <Filter>Source Files\7.5 List</Filter>
+    </ClCompile>
+    <ClCompile Include="forwardlistfind1.cpp">
+      <Filter>Source Files\7.6 Forward List</Filter>
+    </ClCompile>
+    <ClCompile Include="forwardlistsplice1.cpp">
+      <Filter>Source Files\7.6 Forward List</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

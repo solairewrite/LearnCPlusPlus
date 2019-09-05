@@ -104,3 +104,24 @@ List提供deque的所有功能
 | c.merge(c2) | 假设c和c2容器都包含op()准则下的已排序(sorted)元素,将c2的全部元素转移到c,并保证合并后的list仍为已排序 |
 | c.merge(c2, op) | 假设c和c2容器都包含已排序(sorted)元素,将c2的全部元素转移到c,并保证合并后的list在op()准则下仍为已排序 |
 | c.reverse() | 将所有元素反序(reverse the order) |
+## 7.6 Forward List
+| 操作 | 效果 |
+| - | - |
+| c.front() | 返回第一元素(不检查是否存在第一元素) |
+| c.before_begin() | 返回一个forward iterator指向第一元素的前一位置 |
+| c.cbefore_begin() | 返回一个const forward iterator指向第一元素的前一位置 |
+| c.push_front(elem) |  |
+| c.pop_front() |  |
+| c.insert_after(pos, elem) |  |
+| c.insert_after(pos, n, elem) |  |
+| c.insert_after(pos, beg, end) |  |
+| c.insert_after(pos, initlist) |  |
+| c.emplace_after(pos, args...) |  |
+| c.emplace_front(args...) |  |
+| c.erase_after(pos) |  |
+| c.erase_after(beg, end) |  |
+| c.remove(val) |  |
+| c.remove_if(op) |  |
+| c.resize(num) |  |
+| c.resize(num, elem) |  |
+| c.clear() |  |

@@ -156,6 +156,8 @@
     <ClCompile Include="7.4.4 Deque 运用实例.cpp" />
     <ClCompile Include="7.5.4 List 运用实例.cpp" />
     <ClCompile Include="Chapter 07 STL 容器.cpp" />
+    <ClCompile Include="forwardlistfind1.cpp" />
+    <ClCompile Include="forwardlistsplice1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="print.h" />
