@@ -51,6 +51,9 @@
     <ClCompile Include="forwardlistsplice1.cpp">
       <Filter>Source Files\7.6 Forward List</Filter>
     </ClCompile>
+    <ClCompile Include="7.6.4 Forward List 运用实例.cpp">
+      <Filter>Source Files\7.6 Forward List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="print.h">

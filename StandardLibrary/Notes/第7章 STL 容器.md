@@ -125,3 +125,13 @@ List提供deque的所有功能
 | c.resize(num) |  |
 | c.resize(num, elem) |  |
 | c.clear() |  |
+| c.unique() | 移除重复而相邻的元素,只留一个 |
+| c.unique(op) | 移除相邻而且都令op()结果为true的元素,只留一个 |
+| c.splice_after(pos, c2) | 将c2的所有元素转移(move)到c之内,迭代器pos之后 |
+| c.splice_after(pos, c2, c2pos) | 将c2内的c2pos所指元素转移到c内的pos所指位置(c和c2可以是同一容器) |
+| c.splice_after(pos, c2, c2beg, c2end) | 将c2内的(c2beg, c2end)区间内(不含头尾)所有元素转移到c内的pos所指位置(c和c2可以是同一容器) |
+| c.sort() | 以operator<为准则对所有元素排序 |
+| c.sort(op) | 以op()为准则对所有元素排序 |
+| c.merge(c2) | 假设c和c2容器都包含已排序(sorted)元素,将c2的全部元素转移(move)到c,并保证合并后合并后的所有元素仍为已排序(sorted) |
+| c.merge(c2, op) |  |
+| c.reverse() | 将所有元素反序 |
